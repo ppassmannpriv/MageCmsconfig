@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Scriptkid_Cmsconfig>
+			<version>0.1.0</version>
+		</Scriptkid_Cmsconfig>
+	</modules>
+  <global>
+    <helpers>
+      <cms>
+        <rewrite>
+          <wysiwyg_images>Scriptkid_Cmsconfig_Helper_Wysiwyg_Images</wysiwyg_images>
+        </rewrite>
+      </cms>
+    </helpers>
+  </global>
+	<adminhtml>
+    <cms>
+      <browser>
+        <extensions>
+          <allowed>
+            <pdf>1</pdf>
+          </allowed>
+          <image_allowed>
+            <pdf>1</pdf>
+          </image_allowed>
+          <media_allowed></media_allowed>
+        </extensions>
+      </browser>
+    </cms>
+	</adminhtml>
+</config>
